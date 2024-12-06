@@ -1,0 +1,18 @@
+.footer{
+    display: grid;
+    grid-template-columns: 10% 15px 10% 15px;
+    justify-content: space-evenly;
+    margin: 10px;
+  
+    
+    .footer_content{
+        display: flex;
+        a:hover{
+            background-color: blueviolet;
+        }
+     div{
+        display: grid;
+        margin-left: 30px;
+     }
+    }
+}

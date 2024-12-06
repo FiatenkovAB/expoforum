@@ -1,0 +1,15 @@
+*{
+  background-color: rgb(2, 2, 2);
+  color: rgb(250, 244, 244);
+}
+.header{
+  height: 5vh;
+}
+.main {
+  height: 50vh;
+}
+.footer{
+    display: grid;
+    height: 100%;
+    
+}

@@ -1,0 +1,42 @@
+.nuv_header{
+    display: flex;
+    justify-content: space-evenly;
+    width: 98%;
+    padding: 1%;
+    ul{
+        list-style: none;
+        font-size: 120%;
+    }
+}
+
+    .btn_nuv{
+        position: relative;
+        background-color: rgb(16, 17, 17);
+        border: none;
+    }
+    .nuv{
+        display: flex;
+        position: absolute;
+        display: inline-block;
+        
+    }
+    .nuv_content{
+        display: none;
+        position: relative;
+        background-color: blueviolet;
+        min-width: 100px;
+        
+        z-index: 1;
+    }
+    .nuv_content a{
+        color: antiquewhite;
+        background-color: rgb(10, 10, 10);
+        display: block;
+    }
+    .nuv:hover .nuv_content{
+        display: block;
+    }
+
+
+
+
